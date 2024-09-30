@@ -9,13 +9,13 @@ int main(void)
     if (eta < 5) {
         prezzo = 0;
     }
-    else if (eta > 5 && eta < 10) {
+    else if (eta >= 5 && eta <= 10) {
         prezzo = 1;
     }
-    else if (eta > 11 && eta <= 17) {
+    else if (eta >= 11 && eta <= 17) {
         prezzo = 1.5;
     }
-    else if (eta > 18 && eta < 26) {
+    else if (eta >= 18 && eta <= 26) {
         prezzo = 2;
     }
     else {
